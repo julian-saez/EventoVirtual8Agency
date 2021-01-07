@@ -3,109 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;1,500;1,600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/932757f585.js" crossorigin="anonymous"></script>
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Evento Virtual</title>
 </head>
 <body>
-    <header>
-        <h1>El reto de humanizar el CX financiero en 2021. La experiencia de un Unicornio de Latam</h1>
-        <h2>Miércoles 16 de diciembre | 17 hs (Horario de Quito)</h2>
+    <header class="flex-container">
+        <div class="wrapper">
+            <h1>El reto de humanizar el CX financiero en 2021. <blockquote></blockquote> 
+            <span id="italic-h1">La experiencia de un Unicornio de Latam</span> </h1>
+        <h2>MIÉRCOLES 16 DE DICIEMBRE | 17 HS (HORARIO DE QUITO)</h2>
+        </div>
     </header>
-    <main class="flex-container">
-        <section id="presentacion">
-            <div class="auspiciantes">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+    <div class="wrapper">
+        <main class="flex-container">
+            <section id="presentacion">
+                <div class="auspiciantes">
+                    <img src="assets/Bitmap.png" alt="">
+                    <img src="assets/asobanca.png" alt="">
+                    <img src="assets/Captura de Pantalla 2020-12-09 a la(s) 01.25.30 p. m..jpg" alt="">
+                    <img src="assets/logo_hightelecom_horizontal.png" alt="">
+                    <img src="assets/ebanx2_1.png" alt="">
+                    <img src="assets/logo.png" alt="">
+                </div>
+                <p>Te invitan este webinar, donde trataremos la temática de cómo humanizar la experiencia del cliente de Banca y Seguros en el nuevo entorno digital.</p>
+                <p>Además podremos conocer las estrategias que aplicó LOREM para generar una experiencia memorable para sus clientes, mientras se convertía en el gran Unicornio de LATAM.
+
+                Escucha de primera mano la voz de nuestros especialistas:</p>
+                
+
+                <div id="organizadores">
+                    <span class="flex-container">
+                        <img src="assets/img-astudillo.png" alt="">
+                        <div>
+                            <h3>Jose Perez</h3>
+                            <h4>Presidente</h4>
+                        </div>
+                    </span>
+                    <span class="flex-container">
+                        <img src="assets/img-astudillo.png" alt="">
+                        <div>
+                            <h3>Jose Perez</h3>
+                            <h4>Customer Service Senior Manager</h4>
+                        </div>
+                    </span>
+                    <span class="flex-container">
+                        <img src="assets/img-astudillo.png" alt="">
+                        <div>
+                            <h3>Jose Perez</h3>
+                            <h4>Senior Customer Success Consultant</h4>
+                        </div>
+                    </span>
+                    <span class="flex-container">
+                        <img src="assets/img-astudillo.png" alt="">
+                        <div>
+                            <h3>Jose Perez</h3>
+                            <h4>Gerente de Consultoría de Soluciones</h4>
+                        </div>
+                    </span>
+                </div>
+
+                <p>Participa e inspírate para innovar y mejorar la interacción entre clientes y marcas con historias de éxito de empresas del ámbito financiero en América Latina.</p>
+
+                <p>¡Te esperamos!</p>
+                
+
+                <div class="auspiciantes">
+                    <img src="assets/Bitmap.png" alt="">
+                    <img src="assets/asobanca.png" alt="">
+                    <img src="assets/Captura de Pantalla 2020-12-09 a la(s) 01.25.30 p. m..jpg" alt="">
+                    <img src="assets/logo_hightelecom_horizontal.png" alt="">
+                    <img src="assets/ebanx2_1.png" alt="">
+                    <img src="assets/logo.png" alt="">
+                </div>
+            </section>
+            <section id="formulario" class="flex-container">
+                <div id="recuadro-form" class="flex-container">
+                    <h3>¡Inscríbete y reserva tu lugar ahora!</h3>
+                    <form class="flex-container" action="">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="nameUser">
+                    </form>
+                    <form class="flex-container" action="">
+                        <label for="name">Apellido</label>
+                        <input type="text" id="lastNameUser">
+                    </form>
+                    <form class="flex-container" action="">
+                        <label for="name">Correo Electrónico del trabajo</label>
+                        <input type="email" id="emailUser">
+                    </form>
+                    <form class="flex-container" action="">
+                        <label for="name">País</label>
+                        <select name="pais" id="pais">
+                            <option value="argentina">Argentina</option>
+                            <option value="colombia">Columbia</option>
+                            <option value="peru">Peru</option>
+                            <option value="uruguay">Uruguay</option>
+                            <option value="venezuela">Venezuela</option>
+                            <option value="ecuador">Ecuador</option>
+                            <option value="chile">Chile</option>
+                            <option value="paraguay">Paraguay</option>
+                            <option value="bolivia">Bolivia</option>
+                        </select>
+                    </form>
+                    <form class="flex-container" action="">
+                        <label for="name">Número de teléfono</label>
+                        <input type="number" id="telUser">
+                    </form>
+                    <form class="flex-container" action="">
+                        <label for="name">Puesto de trabajo</label>
+                        <input type="text" id="jobUser">
+                    </form>
+                    <button id="btnEnviar">Inscríbete</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="wrapper flex-container">
+            <p id="copyright">&copy; 2021</p>
+            <div id="social-media">
+                <span class="fab fa-twitter"></span>
+                <span class="fab fa-facebook"></span>
+                <span class="fab fa-linkedin-in"></span>
+                <span class="fab fa-instagram"></span>
+                <span class="fab fa-youtube"></span>
+                <span class="fab fa-snapchat"></span>
             </div>
-            <p>Te invitan este webinar, donde trataremos la temática de cómo humanizar la experiencia del cliente de Banca y Seguros en el nuevo entorno digital.
- 
-            Además podremos conocer las estrategias que aplicó LOREM para generar una experiencia memorable para sus clientes, mientras se convertía en el gran Unicornio de LATAM.
-
-            Escucha de primera mano la voz de nuestros especialistas:</p>
-
-            <div id="organizadores">
-                <span>
-                    <img src="" alt="">
-                    <div>
-                        <h3>Jose Perez</h3>
-                        <h4>Presidente</h4>
-                    </div>
-                </span>
-                <span>
-                    <img src="" alt="">
-                    <div>
-                        <h3>Jose Perez</h3>
-                        <h4>Customer Service Senior Manager</h4>
-                    </div>
-                </span>
-                <span>
-                    <img src="" alt="">
-                    <div>
-                        <h3>Jose Perez</h3>
-                        <h4>Senior Customer Success Consultant</h4>
-                    </div>
-                </span>
-                <span>
-                    <img src="" alt="">
-                    <div>
-                        <h3>Jose Perez</h3>
-                        <h4>Gerente de Consultoría de Soluciones</h4>
-                    </div>
-                </span>
-            </div>
-
-            <p>Participa e inspírate para innovar y mejorar la interacción entre clientes y marcas con historias de éxito de empresas del ámbito financiero en América Latina.
-
-            ¡Te esperamos!</p>
-
-            <div class="auspiciantes">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
-        </section>
-        <section id="formulario">
-            <div id="recuadro-form">
-                <h3>¡Inscríbete y reserva tu lugar ahora!</h3>
-                <form action="">
-                    <input type="text" id="nameUser">
-                </form>
-                <form action="">
-                    <input type="text" id="lastNameUser">
-                </form>
-                <form action="">
-                    <input type="email" id="emailUser">
-                </form>
-                <form action="">
-                    <input type="radio" id="countryUser">
-                </form>
-                <form action="">
-                    <input type="number" id="telUser">
-                </form>
-                <form action="">
-                    <input type="text" id="jobUser">
-                </form>
-                <button id="btnEnviar">Inscríbete</button>
-            </div>
-        </section>
-    </main>
-    <footer class="flex-container">
-        <p id="copyright">2021</p>
-        <div id="social-media">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
         </div>
     </footer>
+    
+    <script src="app.js"></script>
 </body>
 </html>
