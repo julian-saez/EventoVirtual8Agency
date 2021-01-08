@@ -1,0 +1,155 @@
+@media screen and (min-width: 769px){
+    .wrapper{
+        position: relative;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('assets/fondo.jpg');
+        background-size: 100% 100%;
+        width: 100%;
+        height: 45vh;
+        min-width: 720px;
+    }
+
+    section#presentacion{
+        width: 100%;
+        max-width: 35vw;
+    }
+
+    .auspiciantes{
+        margin-top: 60px;
+    }
+
+    .auspiciantes img {
+        height: 100%;
+        max-height: 20px;
+        padding-right: 20px;
+    }
+
+    p{
+        margin-top: 30px;
+    }
+
+    #organizadores{
+        margin: 40px 0;
+    }
+
+    #organizadores span{
+        margin-top: 20px;
+    }
+
+    #organizadores img{
+        width: 74px;
+    }
+
+    #organizadores div{
+        margin: auto 0 auto 15px;
+    }
+
+    #organizadores h3{
+        line-height: 30px;
+        text-align: left;
+        font-weight: 600;
+    }
+
+    #organizadores h4{
+        font-weight: 200;
+    }
+
+    #formulario{
+        position: absolute;
+        margin-top: 60px;
+        right: 0;
+        width: 100%;
+        max-width: 30vw;
+        height: auto;
+        justify-content: center;
+    }
+
+    #recuadro-form{
+        position: absolute;
+        right: 0;
+        width: 85%;
+        padding: 0 50px;
+        background-color: $gris;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #recuadro-form h3{
+        margin-top: 50px;
+    }
+
+    form{
+        margin-top: 25px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    input, select{
+        padding-left: 10px;
+        width: 100%;
+        height: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1.5px solid $grisOscuro;
+        outline: none;
+    }
+
+    label{
+        font-family: $principal;
+        font-size: small;
+        font-weight: 600;
+        color: $colorSecundario;
+    }
+
+    
+    #btnEnviar{
+        margin: 35px auto;
+        padding: 15px 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        border: 0;
+        outline: none;
+        font-family: $principal;
+        
+    }
+
+    footer{
+        padding: 25px 0;
+        margin-top: 80px;
+        height: auto;
+        background: $gris;
+    }
+
+    footer div.flex-container{
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer p{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #social-media span{
+        background: transparent;
+        color: $grisOscuro;
+        font-size: 50px;
+        padding-left: 10px;
+    }
+
+    #linea{
+        width: 100%;
+        height: 1px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        background-color: $grisOscuro;
+    }
+}

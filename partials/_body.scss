@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: $principal;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{
+    font-family: $principal;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    text-align: center;
+}
+
+
+h3{
+    font-family: $principal;
+    font-size: 1.1rem;
+    text-align: center;
+    color: $colorSecundario;
+    font-weight: 600;
+}
+
+h4{
+    font-family: $principal;
+    font-weight: 200;
+    color: $colorSecundario;
+    font-weight: 500;
+}
+
+p{
+    margin-top: 30px;
+    font-size: 1.1rem;
+    color: $colorPrimario;
+    font-family: $principal;
+}
+
+label{
+    font-family: $principal;
+    color: $colorSecundario;
+    font-size: small;
+    font-weight: 600;
+}
+
+#italic-h1 {
+    font-weight: 500;
+    font-style: italic;
+}
+
+#webinar{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -25px;
+    width: 100%;
+    max-width: 80px;
+    background-color: #c05100;
+    border-radius: 5px;
+}
+
+#webinar p{
+    font-size: 0.7rem;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.flex-container{
+    display: flex;
+}
