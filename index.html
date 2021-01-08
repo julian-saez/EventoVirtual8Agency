@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Evento Virtual</title>
 </head>
-<body>
+<body id="contenedor">
     <header class="flex-container">
         <div class="wrapper">
             <div id="webinar"><p>WEBINAR</p></div>
@@ -97,7 +97,7 @@
                     </form>
                     <form class="flex-container" action="">
                         <label for="name">País</label>
-                        <select name="pais" id="pais">
+                        <select name="pais" id="countryUser">
                             <option value="argentina">Argentina</option>
                             <option value="colombia">Columbia</option>
                             <option value="peru">Peru</option>
@@ -138,6 +138,31 @@
             <div id="linea"></div>
         </div>
     </footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyDlmrdeBWckIIAeR_t9qmpFepqr_esxWKQ",
+            authDomain: "eventowebinar.firebaseapp.com",
+            databaseURL: "https://eventowebinar-default-rtdb.firebaseio.com",
+            projectId: "eventowebinar",
+            storageBucket: "eventowebinar.appspot.com",
+            messagingSenderId: "195589995298",
+            appId: "1:195589995298:web:5491e4af8de935f521837b",
+            measurementId: "G-27V5845ZJS"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
     <script src="app.js"></script>
 </body>
 </html>
